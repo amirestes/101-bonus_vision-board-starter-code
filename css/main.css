@@ -1,2 +1,53 @@
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Permanent Marker', cursive; */
+html {
+    color: #3B3B3B;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+#vision-board {
+    width: 1200px;
+    height: 850px;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    overflow: auto;
+}
+
+.block {
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+}
+
+.small-block {
+    height: 210px;
+}
+
+.large-block{
+    height: 430px;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.light-bg {
+    background: #fff;
+}
+
+.title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+span {
+    background: #FFF44F;
+}
