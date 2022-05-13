@@ -9,7 +9,7 @@ body {
 }
 
 #vision-board {
-    width: 1200px;
+    max-width: 1200px;
     height: 850px;
     background-image: url("../img/background.png");
     background-size: cover;
@@ -30,6 +30,7 @@ body {
 
 .large-block{
     height: 430px;
+    border: 2px solid #3B3B3B;
 }
 
 .center {
